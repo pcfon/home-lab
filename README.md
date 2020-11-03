@@ -7,4 +7,7 @@ You can find great cheap and older versions of the NUC with customization of mem
 
 
 # Virtualization
- 
+
+To have the ability install multiple VMS on my box I choose the route of installing VMWare on my NUC. 
+At this point I downloaded VmWare Vsphere from the website and bought a unlimited code from ebay that allows me to have no restriction. 
+For the NUC you will have to install VMware(Esxi) on a bootable usb and boot NUC off of your USB. 
