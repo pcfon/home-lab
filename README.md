@@ -26,3 +26,25 @@ This is an example of using code block format
 ```
 
 # Setting Up DHCP Server w/ PXE BOOT
+
+# Install DNS
+
+1. Install bind packages on system 
+```
+yum install bind bind-utils -y
+
+```
+
+
+This is an example of using code block format 
+
+
+```
+This is an example of using code block format 
+
+```
+This is an example of using code block format 
+
+```
+This is an example of using code block format 
+
