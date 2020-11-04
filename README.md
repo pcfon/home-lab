@@ -38,5 +38,12 @@ https://www.unixmen.com/setting-dns-server-centos-7/
 [root@bastion ~]# systemctl start named
 [root@bastion ~]# systemctl enable named
 
+2. Get these files and add to the project and use the sed command to simply some stuff
+Need set variables, inport these files and replace . 
+1. /etc/named.conf
+2. /var/named/fwd.fon
+3. /var/named/rev.fon
+4. 
+
 ```
 
