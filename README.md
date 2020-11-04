@@ -43,7 +43,9 @@ Need set variables, inport these files and replace .
 1. /etc/named.conf
 2. /var/named/fwd.fon
 3. /var/named/rev.fon
-4. 
-
+4. add fire
+firewall-cmd --permanent --add-port=53/tcp
+firewall-cmd --permanent --add-port=53/udp
+firewall-cmd --reload
 ```
 
