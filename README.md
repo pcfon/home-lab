@@ -29,6 +29,9 @@ This is an example of using code block format
 
 # Install DNS
 
+Documentation at this location 
+https://www.unixmen.com/setting-dns-server-centos-7/
+
 1. Install bind packages on system and service 
 ```
 [root@bastion ~]# yum install bind bind-utils -y
