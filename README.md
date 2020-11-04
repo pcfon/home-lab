@@ -29,6 +29,16 @@ This is an example of using code block format
 
 # Install DNS
 
+export DNS_MASTER_IP=192.168.1.10    (Use your IP address that you are setting up DNS on)
+export FWD_FILE_NAME=fwd.fon         (name of the file you, your choice) 
+export REV_FILE_NAME=rev.fon         (name of the file you, your choice) 
+
+REV_FILE_NAME
+
+Some variables need to be set to make our day easier 
+sed -i "s|--MANIFEST_URL--|${FWD_FILE_NAME}|g" named.conf
+sed -i "s|--MANIFEST_URL--|${REV_FILE_NAME}|g" named.conf
+
 Documentation at this location 
 https://www.unixmen.com/setting-dns-server-centos-7/
 
@@ -48,4 +58,19 @@ firewall-cmd --permanent --add-port=53/tcp
 firewall-cmd --permanent --add-port=53/udp
 firewall-cmd --reload
 ```
+
+
+
+
+
+
+# Install PXE Boot Server 
+
+```
+yum install dhcp tftp tftp-server syslinux vsftpd xinetd -y
+
+```
+
+
+
 
