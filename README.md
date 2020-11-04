@@ -19,7 +19,5 @@ For the NUC you will have to install VMware(Esxi) on a bootable usb and boot NUC
 
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
+This is an example of using code block format 
 ```
