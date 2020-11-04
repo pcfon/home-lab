@@ -16,3 +16,10 @@ At this point I downloaded VmWare Vsphere from the website and bought a unlimite
 For the NUC you will have to install VMware(Esxi) on a bootable usb and boot NUC off of your USB. 
 
 
+
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
