@@ -29,22 +29,11 @@ This is an example of using code block format
 
 # Install DNS
 
-1. Install bind packages on system 
+1. Install bind packages on system and service 
 ```
-yum install bind bind-utils -y
-
-```
-
-
-This is an example of using code block format 
-
+[root@bastion ~]# yum install bind bind-utils -y
+[root@bastion ~]# systemctl start named
+[root@bastion ~]# systemctl enable named
 
 ```
-This is an example of using code block format 
-
-```
-This is an example of using code block format 
-
-```
-This is an example of using code block format 
 
