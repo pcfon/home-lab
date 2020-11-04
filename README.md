@@ -16,7 +16,9 @@ At this point I downloaded VmWare Vsphere from the website and bought a unlimite
 For the NUC you will have to install VMware(Esxi) on a bootable usb and boot NUC off of your USB. 
 
 
+# Setting Up AD Servers. 
 
+Setting up AD I choose the route of using Microsoft Server 2016. I choose this becuase it will allow me to intergrate with a lot of different applications the right way. Instructions comming soon 
 
 ```
 This is an example of using code block format 
