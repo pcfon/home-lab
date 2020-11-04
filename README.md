@@ -1,4 +1,5 @@
 # HOME-LAB WORKING PROGRESS
+This project will ultiately be broken down into multiple projects 
 
 # HOME-LAB
 
